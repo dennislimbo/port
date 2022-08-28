@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'NeueHaasRoman';
+    src: url('NHaasGroteskDSPro-55Rg\ copy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NeueHaasMed';
+    src: url('NHaasGroteskDSPro-65Md\ copy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NeueHaasBold';
+    src: url('NHaasGroteskDSPro-75Bd\ copy.ttf') format('truetype');
+}
+
+body {
+	font-family: 'NeueHaasMed', serif;
+	font-size: 18px;
+	/* font-weight: 300; */
+	width: 100%;
+	line-height: 1.4;
+	color: #141414;
+	letter-spacing: 0.2px;
+	background-color: #1e1e1e;
+	cursor: none;
+    margin: 0;
+}
+* {
+  box-sizing: border-box;
+  cursor: none;
+}
+
+.theBall, .theBall-outer {
+	mix-blend-mode: exclusion;
+	width: 100px;
+	height: 100px;
+}
+.theBall-outer {
+	position: fixed;
+	top: -100px;
+	left: -100px;
+	z-index: 5000;
+	pointer-events: none!important;
+}
+.theBall {
+	position: absolute;
+	background-color: #80d7cf;
+	border-radius: 50%;
+	-webkit-transition:  transform .2s cubic-bezier(.175,.885,.32,1.275);
+	-moz-transition:  transform .2s cubic-bezier(.175,.885,.32,1.275);
+	-ms-transition:  transform .2s cubic-bezier(.175,.885,.32,1.275);
+	-o-transition:  transform .2s cubic-bezier(.175,.885,.32,1.275);
+	transition:  transform .2s cubic-bezier(.175,.885,.32,1.275);
+	transform-origin: center center;
+}
+.dark_page .theBall,
+.coloring .theBall {
+	background-color: #80d7cf;
+}
+/* .zooming.theBall {
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-ms-transform: scale(2);
+	-o-transform: scale(2);
+	transform: scale(2);
+} */
+::selection {
+    background-color: #80d7cf;
+    color: #f5f5f5;
+}
+
+a.test {
+    display: block; 
+    text-align: center;
+    margin-top: 15%;
+    /* vertical-align: middle; */
+    /* position: absolute;
+    left: 50%;
+    top: 50%; */
+  font-size: 20rem;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  color: #f5f5f5;
+  text-decoration: none;
+}
