@@ -139,7 +139,7 @@ h3 {
   margin-top: 3.75rem;
 }
 
-#aboutme h3 {
+#aboutme #bio h3, #aboutme #personal h3, #aboutme #bye h3 {
   font-size: 2rem;
 }
 
