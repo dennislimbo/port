@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -269,6 +273,25 @@ section h2 {
   margin: 3.75rem 0;
 }
 
+#myBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #1e1e1e;
+  padding: 12px 16px;
+  /* border-radius: 4px; */
+  border: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
 footer {
   width: 80%;
   padding: 1.2em;
@@ -291,6 +314,6 @@ footer {
   width: 75px;
 }
 
-#footer-links li:hover {
+#footer-links li:hover, #myBtn:hover {
   font-style: italic;
 }
