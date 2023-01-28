@@ -317,3 +317,330 @@ footer {
 #footer-links li:hover, #myBtn:hover {
   font-style: italic;
 }
+
+/* Small desktop styles */
+@media (max-width: 1199px) {
+  #introduction .flex-container {
+    gap: 2rem;
+    font-size: .8rem;
+    /* flex-direction: column; */
+  }
+  
+  #process .flex-container {
+    width: 90%;
+    justify-content: center;
+    gap: 20px;
+  } 
+  
+
+
+
+
+
+
+/* THIS IS WHERE YOU LEFT OFF */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #process .flex-container .flex-item:first-child {
+    flex: 5;
+  }
+  
+  #process .borderedvids .flex-item:first-child {
+    border: 1px solid #1e1e1e;
+  }
+  
+  #process .flex-container .flex-item:nth-child(2) {
+    flex: 6;
+  }
+  
+  /*Video*/
+  .video-container {
+    width: 100%; /* adjust as desired */
+    margin: 10px auto auto; /* centers the container on the page */
+  }
+  
+  video {
+    width: 100%; /* fills the container */
+  }
+  
+  header {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 1.5em;
+    width: 70px;
+  }
+  
+  header nav ul li a, header a {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-style: normal;
+    
+  }
+  
+  header nav ul li a:hover, header a:hover {
+    font-style: italic;
+    transition: font-style 0.5s ease-in-out;
+  }
+  
+  
+  main {
+    padding: 1em;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    font-weight: 200;
+    line-height: 6.875rem;
+    margin-bottom: 2.25rem;
+  }
+  
+  #introduction h1 {
+    font-size: 4rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    margin: 0;
+    font-size: 4rem;
+  }
+  
+  #introduction h2 {
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  #aboutme #about h2 {
+    font-weight: 300;
+  }
+  
+  h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  #process > h3, #process > img {
+    margin-top: 3.75rem;
+  }
+  
+  #aboutme #bio h3, #aboutme #personal h3, #aboutme #bye h3 {
+    font-size: 2rem;
+  }
+  
+  h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  #about p {
+    margin-bottom: 8.5em;
+  }
+  
+  #about p, #aboutme p {
+    font-size: 1.25rem;
+  }
+  
+  #introduction p {
+    margin: 5px 0 0;
+  }
+  
+  #process > p, .reflection > p {
+    margin-top: 10px;
+    width: 70%;
+  }
+  
+  blockquote {
+    margin: 3.75rem 9rem;
+  }
+  
+  blockquote h2 {
+    font-weight: 400;
+    font-size: 2.25rem;
+  }
+  
+  blockquote h3 {
+    font-weight: 300;
+  }
+  
+  figure {
+    margin: 2.5rem 0 3.75rem;
+  }
+  
+  figcaption {
+    margin-top: 20px;
+    text-transform: none;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  #aboutme{
+    width: 45%;
+  }
+  
+  #bio {
+    margin-top: 6em;
+  }
+  
+  #personal, #bye {
+    margin-top: 4em;
+  }
+  
+  #bye {
+    margin-bottom: 6em;
+  }
+  
+  #bio *, #personal *, #bye * {
+    margin: 0px;
+  }
+  
+  #bio p, #personal *, #bye * {
+    margin-top: 10px;
+  }
+  
+  #projects li {
+    margin-bottom: 100px;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  #projects .imgbox {
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  #projects img {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  #projects li:hover img {
+    transform: scale(1.1);
+    transform-origin: center center;
+  }
+  
+  #projects p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  section h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  #value-added .flex-item {
+    margin-left: 3rem;
+  }
+  
+  .reflection {
+    margin: 3.75rem 0;
+  }
+  
+  #myBtn {
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #1e1e1e;
+    padding: 12px 16px;
+    /* border-radius: 4px; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  footer {
+    width: 80%;
+    padding: 1.2em;
+    margin: 0 auto;
+    border-top: 0.5px solid #1e1e1e;
+    text-align: center;
+  }
+  
+  #footer-links ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  #footer-links li {
+    margin: 0 5px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 75px;
+  }
+  
+  #footer-links li:hover, #myBtn:hover {
+    font-style: italic;
+  }
+}
+
+/* Tablet styles */
+@media (max-width: 991px) {
+  /* Override CSS styles for tablet */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  /* Override CSS styles for mobile */
+}
