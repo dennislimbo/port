@@ -1,47 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>About – Dennis Limbo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="favicon.png">
   </head>
   <body>
-
     <header>
-        <div class="home">
-            <a href="index.html">Dennis Limbo</a>
-        </div>
-        <div class="links">
-            <a href="index.html#work">Work</a>
-            <a href="about.html">About</a>
-        </div>
+      <div class="logo"><a href="index.html" class="nav-link">Dennis Limbo</a></div>
+      <nav>
+        <ul>
+          <!--Adjust these links as necessary!-->
+          <li><a href="index.html#projects" class="nav-link">Works</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </nav>
     </header>
-
-    <div class="about-container">
-        <div class="about-image">
-            <img src="dennis.jpg" alt="It's me, Dennis!">
-        </div>
-        <div class="about-content">
-            <h1>Hi, I’m Dennis</h1>
-            <p>
-                Born in Laguna, Philippines and currently based in Vancouver, Canada, I am a design student at Simon Fraser University’s Interactive Arts and Technology program.
-            </p>
-            <p>
-                In the past, I entertained dreams of becoming a chef, and I also helped develop a website for SFU Public Square. I believe that design starts with a deep understanding of the people that we are creating for. I love learning about people, what makes them tick, and the reasons for their behaviour.
-            </p>
-            <a href="https://www.linkedin.com/in/dennis-limbo/" target="_blank">LinkedIn</a>
-            <a href="ResumeSP22.pdf" target="_blank">Resume</a>
-            <a href="mailto:dennis.limbo@gmail.com" target="_blank">Email</a>
-        </div>
-    </div>
-
-    
+    <main id="aboutme">
+      <section id="about">
+        <h2>Hi I'm Dennis!</h2>
+        <img src="assets/about.jpg" alt="A picture of Dennis Limbo in a blue sweater standing in the engineering building at SFU Surrey">
+      </section>
+      <section id="bio">
+        <h3>About me</h3>
+        <p>I currently live in Vancouver, Canada and am studying Interactive Art and Technology at Simon Fraser University. Expected graduation: Fall/Winter 2023</p>
+        <p>I design digital products that focus on providing value through exceptional user experience. I add value to organizations and teams through facilitating conversations around strategies for user research, prototyping, copywriting, and testing. By identifying an appropriate strategy, I help create products that align user needs with business goals.</p>
+      </section>
+      <section id="personal">
+        <h3>A more personal note</h3>
+        <p>Fun fact; before I found design, I thought I was going to be a chef. I love cooking and food in general, particularly fried chicken or a lovely pasta dish.</p>
+        <p>When I’m not in front of the computer or in the kitchen you can find me in the gym, grinding out the next personal record.</p>
+      </section>
+      <section id="bye">
+        <h3>Thanks for stopping by! If you’d like to work together or chat about design please contact me.</h3>
+      </section>
+    </main>
     <footer>
-        <p>2022 Dennis Limbo. Made by pressing buttons fueled by bean water.</p>
+      <section id="footer-links">
+        <ul>
+          <li><a href="mailto:dennis.limbo@gmail.com?subject=Hello&body=Hello%20Dennis,%20I%20hope%20you%20are%20doing%20well." target="_blank">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/dennis-limbo/" target="_blank">LinkedIn</a></li>
+          <!-- Add the resume link!-->
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </section>
+      <p>Thanks for checking out my work – Dennis 2023</p>
     </footer>
-	<script src="js/index.js"></script>
   </body>
 </html>

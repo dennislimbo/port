@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Untangled – Dennis Limbo</title>    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.png">
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="index.html" class="nav-link">Dennis Limbo</a></div>
+      <nav>
+        <ul>
+          <!--Adjust these links as necessary!-->
+          <li><a href="index.html#projects" class="nav-link">Works</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="introduction">
+        <h1>Untangled for Wool and the Gang</h1>
+        <h2>Untangled is a supplementary application designed to provide beginner knitters the resources they need to complete their first knit projects and start new ones.</h2>
+        <img src="assets/watg/images/watg-mockup.jpg" alt="iPhone display mockups of Untangled project UI">
+        <div class="flex-container">
+            <div class="flex-item">
+                <h4>Role</h4>
+                <p>User Research, Strategy, Content Design</p>
+            </div>
+            <div class="flex-item">
+                <h4>Team</h4>
+                <p>Jonathan Choi, Joanna Lee, Karishma Sen, Soraya Elchehimi, Virginia Chu</p>
+            </div>
+            <div class="flex-item">
+                <h4>Duration</h4>
+                <p>Fall 2022, 7 Weeks</p>
+            </div>
+        </div>          
+      </section>
+      <section id="process">
+        <h3>The Cardigan</h3>
+        <p>In February 2020, English singer Harry Styles was seen in a $1,560 color-block patchwork cardigan by JW Anderson. The hashtag #HarryStylesCardigan began trending as fans attempted to create homemade versions of the colourful knitted piece. Many of these fans were beginner knitters who began purchasing knitting kits from Wool and the Gang.</p>
+        <h3>Problem Space</h3>
+        <div class="video-container">
+            <video controls loop>
+              <source src="assets/watg/videos/problem-space.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+        <blockquote>
+            <h2>The more effort a hobby takes to enact [...] the more difficult it's going to be to engage in that on a regular basis.</h2>
+            <p>David Conroy – Professor of Human Development at PSU</p>
+        </blockquote>
+        <h3>Troubleshoot Cycle</h3>
+        <p>Through primary research we found that beginner knitters would give up on a project because they could not recreate the projects they had seen online. 33.6% of survey respondents (147) said it was due to the complexity of working with a pattern; a set of instructions provided by Wool and the Gang. We found that a paint point in the knitting journey was during the troubleshooting process. When beginner knitters would get stuck, they’d refer to Google and Youtube but if they could not find a solution, they would quit.</p>
+        <figure>
+            <img src="assets/watg/images/user-journey.jpg" alt="User Journey map for beginner knitter, the main point of contention here is the troubleshoot cycle, where knitters get stuck, refer to guides, and look for tutorials before ultimately quitting">
+            <figcaption>Beginner Knitter User Journey</figcaption>
+        </figure>
+        <blockquote>
+            <h2>Because I don't know any knitting terms or jargon, I would just Google and describe the situation in whatever key words I can think of.</h2>
+            <p>Ex-Crocheter – User Test Participant</p>
+        </blockquote>
+        <h3>Framing</h3>
+        <p>Considering Wool and the Gang’s mission to bring crafting to a new audience and their vast library of instructional videos we asked,</p>
+        <blockquote>
+            <h2>How might we provide beginner knitters with resources that help them learn to knit as they work through a pattern?</h2>
+        </blockquote>
+        <h3>Initial Concept</h3>
+        <p>Untangled was initially a desktop web application that combined digital patterns with instructional guides and troubleshooting videos.</p>
+        <div class="video-container">
+            <video controls loop>
+              <source src="assets/watg/videos/desktop-proto.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="caption">Desktop Prototype</p>
+        </div>
+        <h3>Designing for Mobile Experience</h3>
+        <p>During our research, we learned that almost three-quarter of Wool and the Gang’s customers were not using their desktop computers while knitting.</p>
+        <blockquote>
+            <h2>72 percent of Wool and the Gang customers stated that they knit while watching TV.</h2>
+            <p>Wool and the Gang customer survey – 4000+ respondents</p>
+        </blockquote>
+        <p>We switch to a mobile app in order to have help more readily available to knitters. This also allowed us to clearly position the solution as a troubleshooting tool.</p>
+        <div class="video-container">
+            <video controls loop>
+              <source src="assets/watg/videos/proto-walkthru.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="caption">Untangled Walkthrough</p>
+        </div>
+        <div class="flex-container borderedvids">
+            <div class="flex-item">
+                <video controls autoplay loop>
+                    <source src="assets/watg/videos/feature1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="flex-item">
+                <h3>Grasp the Jargon</h3>
+                <p>Beginner knitters need help understanding keywords for pattern steps in order to complete them. In the resources section, Untangled provides knitters with videos of the techniques required for their specific garments.</p>
+            </div>
+        </div>
+        <div class="flex-container borderedvids">
+            <div class="flex-item">
+                <video controls autoplay loop>
+                    <source src="assets/watg/videos/feature2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="flex-item">
+                <h3>Getting Un-stuck</h3>
+                <p>When a knitter gets stuck, they can identify the problem by taking a picture or by searching a key term. In doing so, the cognitive overhead that stems from identifying error is reduced, as knitters can troubleshoot their problems efficiently and smoothly.</p>
+            </div>
+        </div>
+        <div class="flex-container borderedvids">
+            <div class="flex-item">
+                <video controls autoplay loop>
+                    <source src="assets/watg/videos/feature3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="flex-item">
+                <h3>Visual Search</h3>
+                <p>Knitters like creating pieces based on what they see online, on other websites, or other people. Visual Search enables knitters to locate Wool and the Gang projects that are similar to their inspirations by gathering projects based on such inspiration.</p>
+            </div>
+        </div>
+        <div class="flex-container borderedvids">
+            <div class="flex-item">
+                <video controls autoplay loop>
+                    <source src="assets/watg/videos/feature4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="flex-item">
+                <h3>Finding the Next Project</h3>
+                <p>The explore feed allows knitters to browse Wool and the Gangs products to gain inspiration to begin knitting and offers an opportunity to re-engage with a different project.</p>
+            </div>
+        </div>
+        <div class="reflection">
+            <h3>Reflection</h3>
+            <p>This project was the first time I experienced a design sprint. Through that experience I learned how to quickly generate and test theories during the sprint.</p>
+            <p>This project also changed the way I view collaboration. I learned that it’s not about everyone working one everything together. It’s about identifying everyone’s strengths and defining roles that allow individuals to use those strengths in service of the work. There were times when we would check each other’s logic regarding decisions which helped to ensure that a decision was justified.</p>
+            <p>I’m thankful for the team that I was able to share this experience with.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer-links">
+        <ul>
+          <li><a href="mailto:dennis.limbo@gmail.com?subject=Hello&body=Hello%20Dennis,%20I%20hope%20you%20are%20doing%20well." target="_blank">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/dennis-limbo/" target="_blank">LinkedIn</a></li>
+          <!-- Add the resume link!-->
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </section>
+      <p>Thanks for checking out my work – Dennis 2023</p>
+    </footer>
+  </body>
+</html>

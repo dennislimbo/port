@@ -1,74 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dennis Limbo</title>
-    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="favicon.png">
   </head>
   <body>
-
-    <a href class="test">BRB</a>
-<div class="theBall-outer"><div class="theBall"></div></div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-    <!-- <header>
-        <div class="home">
-            <a href="index.html">Dennis Limbo</a>
-        </div>
-        <div class="links">
-            <a href="#work">Work</a>
-            <a href="about.html">About</a>
-        </div>
+    <header>
+      <div class="logo"><a href="index.html" class="nav-link">Dennis Limbo</a></div>
+      <nav>
+        <ul>
+          <!--Adjust these links as necessary!-->
+          <li><a href="#projects" class="nav-link">Works</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
     </header>
-
-    <div class="banner">
-        <h1>Hi I'm Dennis, a UI/UX Designer from Vancouver</h1>
-        <h2 style="font-family: 'NeueHaasRoman', sans-serif;letter-spacing: .7px;">With a people-centered focus and analytical mindset, I look to create efficient and engaging user experiences that create positive social impact.</h2>
-    </div>
-    
-    <div id="work" class="container">
-        <a class="content" href="ddw.html">
-            <p>Dutch Design Week</p>
-            <p>UX Research and UI Design</p>
-            <p>2021</p>
-        </a>
-        <a class="grid-images" href="ddw.html">
-            <img src="ddw/mockup.png" alt="Dutch Design Week banner image">
-        </a>
-    </div>
-
-    <div class="container">
-        <a class="content" href="bakd.html">
-            <p>BAK'D</p>
-            <p>UX Research and Design</p>
-            <p>2021</p>
-        </a>
-        <a class="grid-images" href="bakd.html">
-            <img src="bakd/Banner.png" alt="BAK'D banner image">
-        </a>
-    </div>
-
-    <div class="container">
-        <a class="content" href="bauhaus.html">
-            <p>Bauhaus Archiv</p>
-            <p>UX Design, Graphic Design, and Interaction Design</p>
-            <p>2021</p>
-        </a>
-        <a class="grid-images" href="bauhaus.html">
-            <img src="bauhaus/Banner.png" alt="Bauhaus Archiv banner image"
-        ></a>
-    </div>
-
-
+    <main>
+      <section id="about">
+        <h1>a curious ux designer who loves to ask why.</h1>
+        <p>Currently studying design at Simon Fraser University. Graduation in Fall/Winter 2023!</p>
+      </section>
+      <section id="projects">
+        <p style="margin-bottom: 1.875rem;">SELECTED WORKS</p>
+        <ul>
+          <li>
+            <a href="untangled.html">
+              <div class="imgbox">
+                <img src="assets/watg/images/watg-mockup.jpg" alt="iPhone display mockups of Untangled project UI">
+              </div>
+              <h3>Untangled for Wool and the Gang – 2022</h3>
+             <p>Helping beginner knitters start their first projects and find new ones</p>
+            </a>
+          </li>
+          <li>
+            <a href="nyt.html">
+              <div class="imgbox">
+                <img src="assets/nyt/images/nyt-mockup.jpg" alt="iPhone display mockups of New York Times Playlist project UI">
+              </div>
+              <h3>New York Times Playlist – 2022</h3>
+              <p>Making long form journalism more convenient to engage with</p>  
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
     <footer>
-        <p>2022 Dennis Limbo. Made by pressing buttons fueled by bean water.</p>
-    </footer> -->
-	<!-- <script src="js/index.js"></script> -->
-    <script src="js/cursor.js"></script>
+      <section id="footer-links">
+        <ul>
+          <li><a href="mailto:dennis.limbo@gmail.com?subject=Hello&body=Hello%20Dennis,%20I%20hope%20you%20are%20doing%20well." target="_blank">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/dennis-limbo/" target="_blank">LinkedIn</a></li>
+          <!-- Add the resume link!-->
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </section>
+      <p>Thanks for checking out my work – Dennis 2023</p>
+    </footer>
   </body>
 </html>
