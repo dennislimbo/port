@@ -133,6 +133,8 @@ h3 {
 
 #process > h3, #process > img {
   margin-top: 3.75rem;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 h4 {
@@ -177,7 +179,6 @@ figure {
 
 figcaption {
   margin-top: 20px;
-  text-transform: uppercase;
 }
 
 ul {
