@@ -85,12 +85,31 @@ header nav ul li a, header a {
   font-size: 1.5rem;
   text-decoration: none;
   font-style: normal;
+  /* transform: scale(25); */
+  transition: all 0.2s ease;
   
 }
 
-header nav ul li a:hover, header a:hover {
-  font-style: italic;
-  transition: font-style 0.5s ease-in-out;
+header nav ul li a:hover , header a:hover {
+  color: #337ab7;
+  /* transform: skewX(25deg); */
+  /* -ms-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg); */
+}
+
+header nav ul li, header .logo {
+  transition: all 0.2s ease;
+}
+
+header nav ul li:has(a:hover), header .logo:has(a:hover) {
+  /* color: #337ab7; */
+  transform: skewX(-20deg);
+  /* -ms-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg); */
 }
 
 
@@ -314,8 +333,22 @@ footer {
   width: 75px;
 }
 
+#footer-links li, #myBtn {
+  transition: all 0.2s ease;
+  
+}
+
+#footer-links li a {
+  transition: all 0.2s ease;
+}
+
 #footer-links li:hover, #myBtn:hover {
-  font-style: italic;
+  /* color: #337ab7; */
+  transform: skewX(-20deg);
+}
+
+#footer-links li:hover a, #myBtn:hover {
+  color: #337ab7;
 }
 
 /* Small desktop styles */
