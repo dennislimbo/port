@@ -49,6 +49,10 @@ a {
   flex: 6;
 }
 
+#process #image-flex .flex-item {
+  flex: 1;
+}
+
 /*Video*/
 .video-container {
   width: 100%; /* adjust as desired */
@@ -380,7 +384,7 @@ footer {
 
 
 
-
+/*
 
 
 
@@ -677,3 +681,4 @@ footer {
 @media (max-width: 767px) {
   /* Override CSS styles for mobile */
 }
+*/
