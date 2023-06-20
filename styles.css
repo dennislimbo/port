@@ -86,7 +86,7 @@ header nav ul li {
   width: 70px;
 }
 
-header nav ul li a, header a {
+header nav ul li a, header a, #dossier {
   font-family: 'EB Garamond', serif;
   font-size: 1.5rem;
   text-decoration: none;
@@ -96,7 +96,12 @@ header nav ul li a, header a {
   
 }
 
-header nav ul li a:hover , header a:hover {
+#dossier {
+  display: inline-block;
+}
+
+
+header nav ul li a:hover , header a:hover, #dossier:hover {
   color: #337ab7;
   /* transform: skewX(25deg); */
   /* -ms-transform: skewX(-10deg);
@@ -109,8 +114,8 @@ header nav ul li, header .logo {
   transition: all 0.2s ease;
 }
 
-header nav ul li:has(a:hover), header .logo:has(a:hover) {
-  /* color: #337ab7; */
+header nav ul li:has(a:hover), header .logo:has(a:hover), #dossier:hover {
+  /* color: #ffffff; */
   transform: skewX(-20deg);
   /* -ms-transform: skewX(-10deg);
   -moz-transform: skewX(-10deg);
